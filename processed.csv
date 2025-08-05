@@ -1,0 +1,11 @@
+image,age,gender,hair_length
+dataset\23_female_short.jpg,23,female,short
+dataset\25_female_long.jpg,25,female,long
+dataset\27_male_long.jpg,27,male,long
+dataset\29_female_short.jpg,29,female,short
+dataset\29_male_short.jpg,29,male,short
+dataset\32_male_short.jpg,32,male,short
+dataset\33_male_long.jpg,33,male,long
+dataset\40_female_long.jpg,40,female,long
+dataset\43_male_sort.jpg,43,male,sort
+dataset\51_male_bald.jpg,51,male,bald

@@ -1,0 +1,109 @@
+/* Sleek & Modern UI */
+
+body {
+    background: radial-gradient(circle, #f0f4ff, #dbe9ff);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ccd8f1;
+    animation: slideIn 0.6s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4d8eff;
+    box-shadow: 0 0 5px rgba(77, 142, 255, 0.4);
+}
+
+.btn-primary {
+    background: linear-gradient(120deg, #4d8eff, #3ddad7);
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(77, 142, 255, 0.25);
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(120deg, #3b77ff, #25c7c2);
+    transform: translateY(-2px);
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f5f9ff;
+    border: 1px solid #a7c6ff;
+    border-left: 4px solid #4d8eff;
+    border-radius: 12px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.result-box h4 {
+    font-weight: 600;
+    color: #2f3542;
+    margin-bottom: 10px;
+}
+
+.result-box p {
+    color: #57606f;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.uploaded-img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #c3dafe;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.uploaded-img:hover {
+    transform: scale(1.02);
+}
